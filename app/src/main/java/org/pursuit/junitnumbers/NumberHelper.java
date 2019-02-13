@@ -1,7 +1,11 @@
 package org.pursuit.junitnumbers;
 
+import android.content.Intent;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
+
+import static java.util.Arrays.*;
 
 public class NumberHelper {
 
@@ -72,6 +76,7 @@ public class NumberHelper {
 
    public int[] numberSort(int[] numbers){
 
-        return Arrays.sort(numbers);
-   }
+
+        return sort(numbers);
+    }
 }
